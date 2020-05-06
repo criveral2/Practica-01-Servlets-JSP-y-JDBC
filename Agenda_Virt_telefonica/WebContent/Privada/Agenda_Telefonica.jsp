@@ -30,19 +30,19 @@
 	<div class="container">
 	
 		<div class="page-header text-right">
-		<button class="btn btn-dark" type="submit"><a class="nav-link" href="#">Cerrar Sesion</a></button>
+		<button class="btn btn-dark" type="submit"><a class="nav-link" href="/Agenda_Virt_telefonica/JSPinterfaces/index.jsp">Cerrar Sesion</a></button>
 		</div>
 		
-		<div class="page-header p-3">
-			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="page-header p-3 text-center">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
 				<!-- Brand/logo -->
 				<a class="navbar-brand"  href="#"> <img class="rounded" src="/Agenda_Virt_telefonica/img/logo.png" alt="logo"
 					style="width: 60px;">
 				</a>
 				
 					 <form class="form-inline col-mg-8" action="">
-	    				<input class="form-control mr-sm-3" type="text" placeholder="Search">
-	   				 <button class="btn btn-primary" type="submit">Search</button>
+	    				<input class="form-control mr-sm-4" type="text" placeholder="Ingrese un correo">
+	   				 <button class="btn btn-primary" type="submit">Buscar</button>
 	   				 <button class="btn btn-dark" type="submit"><i class='far fa-user-circle' style='font-size:36px'></i></button>
 	   				 <button class="btn btn-dark" type="submit"><i class='far fa-envelope' style='font-size:36px'></i></button>
 	   				 <button class="btn btn-dark" type="submit"><i class='fas fa-list' style='font-size:36px'></i></button>
@@ -87,7 +87,7 @@
    
       <tr>
         <th class="text-center">Informacion Personal</th>
-        <th class="text-center"><img class="rounded" src="/Agenda_telefonica_JDBC/img/usuario.png" alt="usuario"style="width: 230px;"></th>
+        <th class="text-center"><img class="rounded" src="/Agenda_Virt_telefonica/img/usuario.png" alt="usuario"style="width: 230px;"></th>
       
       </tr>
   	</table>
@@ -110,9 +110,9 @@
 
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Agenda Virtual</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <p>Somos una empresa que ayuda a personas que por diferentes motivos no tienen el tiempo necesario de tener una organizacion adecuada de sus contactos por lo que 
+         en esta aplicacion emos desarrollado un ambiente amigable e iterativo para que usted como usuario tenga la mejor experiencia 
+         y despreocupacion de poder obtener y manipulas informacion de sus contactos.</p>
 
       </div>
       <!-- Grid column -->
@@ -123,20 +123,23 @@
       <div class="col-md-2 mx-auto">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Informacion</h5>
 
         <ul class="list-unstyled">
           <li>
-           <p>Informacion </p>
+          <h6>Desarrollado por :</h6>
+           <p>Christian Rivera</p>
           </li>
           <li>
-           <p>Informacion </p>
+           <h6>Mas informacion:</h6>
+           <p>criveral2@est.ups.edu.ec</p>
           </li>
           <li>
-            <p>Informacion </p>
+             <h6>Direccion :</h6>
+           <p>Av.Americas y calle vieja </p>
           </li>
           <li>
-            <p>Informacion </p>
+           
           </li>
         </ul>
 

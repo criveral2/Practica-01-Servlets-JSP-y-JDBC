@@ -17,7 +17,7 @@
 		<div class="row justify-content-center pt-5 mt-5 mr-1">
 			<div class="col-md-4 formulario">
 			
-				<form method="POST">
+				<form method="POST" action="/Agenda_Virt_telefonica/ValidarLogin">
 
 					<div class="form-group text-center pt-3">
 						<h1 class="text-light">INICIAR SESION</h1>

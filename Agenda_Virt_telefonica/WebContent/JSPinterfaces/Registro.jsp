@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="row justify-content-center pt-3 mt-3 mr-1">
 			<div class="col-md-6 formulario">
-				<form action="">
+				<form method="POST" action="/Agenda_Virt_telefonica/CrearRegistro">
 
 					<div class="form-group text-center pt-3">
 						<h1 class="text-light">FORMULARIO DE REGISTRO</h1>
@@ -24,32 +24,41 @@
 					<div class="form-group mx-sm-4 pt-1 ">
 						<H6>Ingrese su numero de cedula :</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese su cedula aqui" required>
+							placeholder="Ingrese su cedula aqui" name="cedula" required>
 					</div>
 					<div class="form-group mx-sm-4 pt-1">
 						<H6>Ingrese su Nombre :</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese un Nombre aqui" required>
+							placeholder="Ingrese un Nombre aqui" name="nombre" required>
 					</div>
 					<div class="form-group mx-sm-4 pt-1">
 						<H6>Ingrese su Apellido :</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese un Apellido aqui" required>
+							placeholder="Ingrese un Apellido aqui" name="apellido" required>
 					</div>
 					<div class="form-group mx-sm-4 pt-1">
 						<H6>Ingrese un Correo Electronico :</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese un Correo aqui" required>
+							placeholder="Ingrese un Correo aqui" name="correo" required>
 					</div>
 					<div class="form-group mx-sm-4 pt-1">
 						<H6>Cree una contraseña :</H6>
 						<input type="text" class="form-control"
-							placeholder="Agregar Contraseña aqui" required>
+							placeholder="Agregar Contraseña aqui" name="contra" required>
 					</div>
 					<div class="form-group mx-sm-4 pb-2">
 						<input type="submit" class=" btn  btn-block ingresar"
 							value="REGISTRARSE">
+					</div>
+					
+					<div class="form-group mx-sm-4 pb-2">
+							<a class="nav-link " href="/Agenda_Virt_telefonica/JSPinterfaces/index.jsp">REGRESAR</a>
+					</div>
+				
+					
 				</form>
+				
+				
 			</div>
 		</div>
 
