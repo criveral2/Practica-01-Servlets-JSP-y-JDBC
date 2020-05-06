@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url(/Agenda_Virt_telefonica/img/amb-agend.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.texto{
+ display: none;
+ 
+}
+
+.fondo{
+	background: black; 
+}
