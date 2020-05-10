@@ -34,7 +34,7 @@
 		<div class="page-header text-right">
 		
 		
-		<button class="btn btn-dark" type="button"><a class="nav-link"  href="/Agenda_Virt_telefonica/CerrarSesion" >Cerrar Sesion</a></button>
+		<button class="btn btn-dark" type="button"><a class="nav-link"  href="/Agenda_Virt_telefonica/Listar" >Regresar</a></button>
 		
 		
 		</div>
@@ -45,17 +45,10 @@
 				<a class="navbar-brand"  href="#"> <img class="rounded" src="/Agenda_Virt_telefonica/img/logo.png" alt="logo"
 					style="width: 60px;">
 				</a>
+				<h1>Registro De Numeros</h1>
 				
-					 <form class="form-inline col-mg-8" method="POST" action="/Agenda_Virt_telefonica/BuscarUsu">
-	    				<input class="form-control mr-sm-4" type="text" placeholder="Ingrese un correo" name="MAIL">
-	   				 <button class="btn btn-primary" type="submit" value="buscarUsu" name="busc">Buscar</button>
-	   				 <!-- ------------------------------------------ -->
-	   			
-	   				  <!-- ------------------------------------------ -->
-	   				
-	   				
-	  				</form>
-	  				 <button class="btn btn-white" type="button" ><a class="nav-link text-light"  href="/Agenda_Virt_telefonica/Crud?agregarTel=${usuario.cedula}"  ><i class='fas fa-list' style='font-size:36px'></i></a></button>
+					
+	  				
 
 			</nav>
 		</div>
@@ -71,10 +64,10 @@
 
 <c:choose>
 <c:when test="${usuario.telefono.size() > 0 }">
-<!-- <p> ${usuario}</p> -->
+<!--  <p> ${usuario}</p>-->
 <div>
 <h3 class="ui top attached header">
-  Numeros Personales
+  Agenda
 </h3>
 <div class="ui attached segment">
   
@@ -105,9 +98,9 @@
     <td>${telefono.tipo}</td>
     <td>${telefono.operadora}</td>
     <td>
-    <button class="btn btn-dark" type="button"><a class="nav-link"  href="/Agenda_Virt_telefonica/Crud?EditTel=${telefono.codigo}"  >Editar</a></button>
+   
      
-      <button class="btn btn-dark" type="button"><a class="nav-link"  href="/Agenda_Virt_telefonica/Crud?ElimTel=${telefono.codigo}" >Eliminar</a></button>
+   
     </td>
     
   </tr>
@@ -137,8 +130,8 @@
 	 <table class="table table-striped">
    
       <tr>
-      <th class="text-center"> <h1>Informacion Personal </h1>
-       <p>
+        <th class="text-center"><h1>Informacion </h1>
+             <p>
       Cedula:  ${usuario.cedula}
       </p>
       <p>
@@ -147,7 +140,7 @@
        <p>
       Correo: ${usuario.correo}
       </p>
-      </th>
+        <p>  <button class="btn btn-dark" type="button"><a class="nav-link"  href="mailto:${usuario.cedula}"  >Enviar E-mail</a></button></p>  </th>
         <th class="text-center"><img class="rounded" src="/Agenda_Virt_telefonica/img/usuario.png" alt="usuario"style="width: 230px;"></th>
       
       </tr>

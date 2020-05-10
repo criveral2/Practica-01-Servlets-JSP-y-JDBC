@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+@charset "ISO-8859-1";
+
+body {
+	background-image: url(/Agenda_Virt_telefonica/img/movil.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.form-control::placeholder {
+	color: white;
+}
+
+.form-control:focus {
+	background: none;
+	box-shadow: none;
+	autline: none;
+}
+
+.ingresar {
+	background: #222A3F;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 700 !important;
+	color: white;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+	transition: 0.5s ease-in
+}
+
+.ingresar:hover {
+	color: white;
+}
+
+.olvide {
+	color: white;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	font-size: 20px;
+	font-weight: 700 !important;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, .5);
+}
+
+.olvide:hover {
+	color: white;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	cursor: pointer;
+}
+
+.espacio{
+	
+  padding: 0px 0px 0px 0px;
+  background-color: dark;
+  	background: rgba(0, 0, 0, .1);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0, 0, 5, 10);
+	color: white;
+
+	
+}
+.bor{
+	border: none;
+}
+
+.espacio1{
+	
+  padding: 200px 0px 200px 0px;
+
+	
+}
+.espacio2{
+	
+  padding: 100px 0px 0px 0px;
+
+	
+}

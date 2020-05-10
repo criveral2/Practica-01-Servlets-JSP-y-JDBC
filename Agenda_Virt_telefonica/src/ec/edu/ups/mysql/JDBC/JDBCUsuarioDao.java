@@ -15,9 +15,9 @@ public class JDBCUsuarioDao extends JDBCGenericDao<Usuario, String> implements D
 	@Override
 	public void createTable() {
 		// TODO Auto-generated method stub
-		conexionUno.update("CREATE TABLE IF NOT EXISTS usuario (" + "	usu_cedula VARCHAR(10) NOT NULL,"
-				+ "	usu_nombre VARCHAR(50)," + "	usu_apellido VARCHAR(50)," + "	usu_correo VARCHAR(100),"
-				+ "	usu_pass VARCHAR(255)," + "	PRIMARY KEY (usu_cedula)" + ");");
+		 conexionUno.update("CREATE TABLE IF NOT EXISTS usuario (" + "    usu_cedula VARCHAR(10) NOT NULL,"
+	                + "    usu_nombre VARCHAR(50)," + "    usu_apellido VARCHAR(50)," + "    usu_correo VARCHAR(100),"
+	                + "    usu_pass VARCHAR(255)," + "    PRIMARY KEY (usu_cedula)" + ");");
 	}
 
 	@Override
@@ -85,6 +85,31 @@ public class JDBCUsuarioDao extends JDBCGenericDao<Usuario, String> implements D
 		}
 		return usu;
 	}
+	
+	//---------------------------------------------------------------------------------------
+	
+	
+	@Override
+	public Usuario findBycorreo(String correo) {
+		// TODO Auto-generated method stub
+		Usuario usu = null;
+		ResultSet rs = conexionUno.query("SELECT * FROM usuario WHERE usu_correo = '" + correo + "';");
+		try {
+			if (rs != null && rs.next()) {
+				usu = new Usuario(rs.getString("usu_cedula"), rs.getString("usu_nombre"), rs.getString("usu_apellido"),
+						rs.getNString("usu_correo"), rs.getNString("usu_pass"));
+				List<Telefono> telefono = DaoFactory.getFactory().getTelefonoDAO().findByUsuarioId(usu.getCedula());
+				usu.setTelefono(telefono);
+			}
+		} catch (SQLException e) {
+			System.out.println(">>>WARNING (JDBCUserDAO:findById): " + e.getMessage());
+		}
+		return usu;
+	}
+	
+	
+	
+	//----------------------------------------------------------------------------------------
 
 	@Override
 	public Usuario findUsuario(String correo, String contrasenia) {

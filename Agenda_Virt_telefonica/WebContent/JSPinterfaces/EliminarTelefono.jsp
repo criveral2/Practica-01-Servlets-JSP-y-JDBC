@@ -9,37 +9,50 @@
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 	crossorigin="anonymous">
 <link rel="stylesheet" href="/Agenda_Virt_telefonica/CSS/estilos.css">
-<title>Login</title>
+<title>Crear Telefono</title>
 </head>
 <body>
-  
+<c:set var = "telefono1" value = "${requestScope['telefono']}" />
+
+<p> ${telefono1.usuario.cedula}</p>
+
 	<div class="container">
-		<div class="row justify-content-center pt-5 mt-5 mr-1">
-			<div class="col-md-4 formulario">
-			
-				<form method="POST" action="/Agenda_Virt_telefonica/ValidarLogin">
+		<div class="row justify-content-center pt-3 mt-3 mr-1">
+			<div class="col-md-6 formulario">
+				<form method="POST" action="/Agenda_Virt_telefonica/EliminarT?actualid=${telefono1.codigo }&cedula=${telefono1.usuario.cedula}">
 
 					<div class="form-group text-center pt-3">
-						<h1 class="text-light">INICIAR SESION</h1>
+						<h1 class="text-light">Eliminar</h1>
 					</div>
-					<div class="form-group mx-sm-4 pt-3">
+					<div class="form-group mx-sm-4 pt-1 ">
+						<H6>tipo de telefono:</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese su Usuario" name="Usuario" required>
+							placeholder="${telefono1.tipo }" name="tipo" disabled>
 					</div>
-					<div class="form-group mx-sm-4">
+					<div class="form-group mx-sm-4 pt-1">
+						<H6>Numero de Telefono :</H6>
 						<input type="text" class="form-control"
-							placeholder="Ingrese su Contraseña" name="Contra" required>
+							placeholder=" " name="numero" required>
 					</div>
+					<div class="form-group mx-sm-4 pt-1">
+						<H6>Su Operadora :</H6>
+						<input type="text" class="form-control"
+							placeholder=" " name="operadora" required>
+					</div>
+					
 					<div class="form-group mx-sm-4 pb-2">
 						<input type="submit" class=" btn  btn-block ingresar"
-							value="INGRESAR">
+							value="ELIMINAR">
 					</div>
-					<div class="form-group text-center">
-						<span><a href="Registro.jsp" class="olvide">REGISTRARSE</a></span>
+					
+					<div class="form-group mx-sm-4 pb-2">
+							<a class="nav-link " href="/Agenda_Virt_telefonica/JSPinterfaces/index.jsp">CANCELAR</a>
 					</div>
-
+				
+					
 				</form>
-				<span><a href="/Agenda_Virt_telefonica/Publica/Inicio.html">Regresar</a></span>
+				
+				
 			</div>
 		</div>
 
@@ -48,7 +61,7 @@
 
 
 
-<%System.out.println("holamundo"); %>
+
 
 
 
@@ -72,5 +85,7 @@
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
+
+
 </body>
 </html>

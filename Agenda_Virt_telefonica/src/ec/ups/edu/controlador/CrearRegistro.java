@@ -52,7 +52,7 @@ public class CrearRegistro extends HttpServlet {
         DaoFactory.getFactory().createTables();
         DaoUsuario usuarioDao = DaoFactory.getFactory().getUsuarioDAO();
         Usuario user = new Usuario(cedula, nombre, apellido, correo, contra);
-        
+       
  if (usuarioDao.create(user)) {
 	 		System.out.println("Usuario Creado");
             response.sendRedirect("/Agenda_Virt_telefonica/JSPinterfaces/index.jsp");

@@ -23,9 +23,10 @@ public class JDBCTelefonoDao extends JDBCGenericDao<Telefono, Integer> implement
 	@Override
 	public boolean create(Telefono telefono) {
 		// TODO Auto-generated method stub
+		System.out.println("esto le llega :----------"+telefono.getUsuario().getCedula());
 		return conexionDos.update("INSERT INTO telefono (tel_numero, tel_tipo, tel_operadora, usu_cedula) "
 				+ "VALUES ('" + telefono.getNumero() + "', '" + telefono.getTipo() + "', '" + telefono.getOperadora()
-				+ "', '" + telefono.getUsuario() + "');");
+				+ "', '" + telefono.getUsuario().getCedula() + "');");
 	}
 
 	@Override
@@ -82,7 +83,6 @@ public class JDBCTelefonoDao extends JDBCGenericDao<Telefono, Integer> implement
 			while (rs.next()) {
 				Telefono phone = new Telefono(rs.getInt("tel_id"), rs.getString("tel_numero"), rs.getString("tel_tipo"),
 						rs.getString("tel_operadora"));
-				phone.setUsuario(DaoFactory.getFactory().getUsuarioDAO().findById(rs.getString("usu_cedula")));
 				telefono.add(phone);
 			}
 		} catch (SQLException e) {
