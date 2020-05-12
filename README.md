@@ -21,10 +21,22 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
   
   
   ![image](https://user-images.githubusercontent.com/52549697/81626886-82770c80-93c2-11ea-837b-44ab190eef77.png)
+![image](https://user-images.githubusercontent.com/52549697/81626959-a9cdd980-93c2-11ea-9318-5cdd790fa131.png)
+![image](https://user-images.githubusercontent.com/52549697/81626994-beaa6d00-93c2-11ea-9409-1754db277eb3.png)
 
 
     Un usuario puede iniciar sesión usando su correo y contraseña.
-    
+    ![image](https://user-images.githubusercontent.com/52549697/81627119-18ab3280-93c3-11ea-8ee1-36ea9a389a7f.png)
+![image](https://user-images.githubusercontent.com/52549697/81627219-514b0c00-93c3-11ea-8858-d998ee9981a3.png)
+
+
+![image](https://user-images.githubusercontent.com/52549697/81627573-1d241b00-93c4-11ea-9afa-885be88df0ea.png)
+![image](https://user-images.githubusercontent.com/52549697/81627644-3fb63400-93c4-11ea-86c5-57ccf9a4841e.png)
+
+
+
+![image](https://user-images.githubusercontent.com/52549697/81628015-21046d00-93c5-11ea-80aa-92dbc44fca31.png)
+![image](https://user-images.githubusercontent.com/52549697/81628043-36799700-93c5-11ea-9087-378eae01847e.png)
     
     
     Una vez iniciado sesión el usuario podrá: 
