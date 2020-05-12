@@ -12,6 +12,10 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 <h1> ACTIVIDADES DESARROLLADAS </h1>
 
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC”
+
+![image](https://user-images.githubusercontent.com/52549697/81634179-0c7ba100-93d4-11ea-824a-3067233c4c0c.png)
+
+
 2.	Desarrollar una aplicación con tecnología JEE para gestionar una agenda telefónica en la web.
     Los usuarios pueden registrarse en la aplicación a través de un formulario de creación de cuentas.
     ![image](https://user-images.githubusercontent.com/52549697/81626532-9a01c580-93c1-11ea-8453-7e32b0bb3687.png)
@@ -108,6 +112,8 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     
 3.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación.
+
+![image](https://user-images.githubusercontent.com/52549697/81634118-e7872e00-93d3-11ea-88d6-63d6eb0de44b.png)
 
 
 
