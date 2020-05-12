@@ -12,12 +12,16 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 <h1> ACTIVIDADES DESARROLLADAS </h1>
 
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC”
+Creamos un repositorio en la herramienta github para llevar un seguimiento del proceso de construcción de la aplicacion
 
 ![image](https://user-images.githubusercontent.com/52549697/81634179-0c7ba100-93d4-11ea-824a-3067233c4c0c.png)
 
 
 2.	Desarrollar una aplicación con tecnología JEE para gestionar una agenda telefónica en la web.
     Los usuarios pueden registrarse en la aplicación a través de un formulario de creación de cuentas.
+    
+    A continuación se presenta la interfaz que el usuario podrá visualizar en su ordenador, esta conformada por un formulario que envía los parámetros mediante internet por un método POST a la sección del controlador quien se encargara de registrarlo.
+    
     ![image](https://user-images.githubusercontent.com/52549697/81626532-9a01c580-93c1-11ea-8453-7e32b0bb3687.png)
 ![image](https://user-images.githubusercontent.com/52549697/81626712-18f6fe00-93c2-11ea-96c3-4c32983cbc11.png)
 ![image](https://user-images.githubusercontent.com/52549697/81626734-2b713780-93c2-11ea-8c8c-97f1c68d91d0.png)
@@ -28,10 +32,15 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 ![image](https://user-images.githubusercontent.com/52549697/81626959-a9cdd980-93c2-11ea-9318-5cdd790fa131.png)
 ![image](https://user-images.githubusercontent.com/52549697/81626994-beaa6d00-93c2-11ea-9409-1754db277eb3.png)
 
+Procedemos a crear el servlet que recibirá el parámetro enviado por el formulario de registro y posteriormente a realizar la creación del nuevo usuario.
 
     Un usuario puede iniciar sesión usando su correo y contraseña.
+    
+Se presenta el código de la interfaz que el usuario visualizara para el inicio de sesión el cual nuevamente enviara un formulario.
+
 ![image](https://user-images.githubusercontent.com/52549697/81627119-18ab3280-93c3-11ea-8ee1-36ea9a389a7f.png)
 ![image](https://user-images.githubusercontent.com/52549697/81627219-514b0c00-93c3-11ea-8858-d998ee9981a3.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/52549697/81627573-1d241b00-93c4-11ea-9afa-885be88df0ea.png)
@@ -41,6 +50,7 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     Una vez iniciado sesión el usuario podrá: 
          Registrar, modificar, eliminar, buscar y listar sus teléfonos
+         Posteriormente presentamos las funcionalidades del crud que realiza los diferentes servlets que corresponden a nuestro controlador.
          
  ![image](https://user-images.githubusercontent.com/52549697/81628678-ed2a4700-93c6-11ea-8dcc-8c22ced15732.png)
  ![image](https://user-images.githubusercontent.com/52549697/81630568-9d9a4a00-93cb-11ea-9871-fc3c99325a16.png)
@@ -77,6 +87,8 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
          
          
          Filtro
+         Nos permitirá controlar la sesión dependiendo si el usuario a realizado el logeo de lo contrario no podrá posicionarse en las paginas personales, las cuales necesitan de un   logeo.
+         
 ![image](https://user-images.githubusercontent.com/52549697/81633126-9f670c00-93d1-11ea-8272-426076e57776.png)
 ![image](https://user-images.githubusercontent.com/52549697/81633166-b574cc80-93d1-11ea-9ff6-11282a49d8af.png)
          
@@ -93,6 +105,7 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     
     Se debe generar una página con la experiencia e interfaz de usuario apropiada
+    Se presenta la interfaz que el usuario visualizara en su navegador
     
     Index
     
@@ -112,6 +125,7 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     
 3.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación.
+A continuación se muestra los diferentes cambio que se realizaron a lo largo del desarrollo del sistema.
 
 ![image](https://user-images.githubusercontent.com/52549697/81634118-e7872e00-93d3-11ea-88d6-63d6eb0de44b.png)
 
