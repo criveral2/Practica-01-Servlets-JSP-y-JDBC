@@ -90,10 +90,21 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     Se debe generar una página con la experiencia e interfaz de usuario apropiada
     
+    Index
+    
  ![image](https://user-images.githubusercontent.com/52549697/81633608-c07c2c80-93d2-11ea-8dc6-9a5655fb1699.png)
-   
+![image](https://user-images.githubusercontent.com/52549697/81633723-020cd780-93d3-11ea-9b09-681e8c2a1819.png)
+ ![image](https://user-images.githubusercontent.com/52549697/81633780-27014a80-93d3-11ea-8a0c-2501e8b3edf8.png) 
     
-    
+    Login
+
+![image](https://user-images.githubusercontent.com/52549697/81633824-426c5580-93d3-11ea-96b0-fca51f8a6e34.png)
+
+
+
+    Agenda
+![image](https://user-images.githubusercontent.com/52549697/81633903-63cd4180-93d3-11ea-8b25-0231bb8bc538.png)
+![image](https://user-images.githubusercontent.com/52549697/81633948-7ba4c580-93d3-11ea-89e0-ebf17407874c.png)
     
     
 3.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación.
