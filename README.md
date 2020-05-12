@@ -26,7 +26,7 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 
 
     Un usuario puede iniciar sesión usando su correo y contraseña.
-    ![image](https://user-images.githubusercontent.com/52549697/81627119-18ab3280-93c3-11ea-8ee1-36ea9a389a7f.png)
+![image](https://user-images.githubusercontent.com/52549697/81627119-18ab3280-93c3-11ea-8ee1-36ea9a389a7f.png)
 ![image](https://user-images.githubusercontent.com/52549697/81627219-514b0c00-93c3-11ea-8858-d998ee9981a3.png)
 
 
@@ -34,31 +34,54 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 ![image](https://user-images.githubusercontent.com/52549697/81627644-3fb63400-93c4-11ea-86c5-57ccf9a4841e.png)
 
 
-
-![image](https://user-images.githubusercontent.com/52549697/81628015-21046d00-93c5-11ea-80aa-92dbc44fca31.png)
-![image](https://user-images.githubusercontent.com/52549697/81628043-36799700-93c5-11ea-9087-378eae01847e.png)
-    
     
     Una vez iniciado sesión el usuario podrá: 
          Registrar, modificar, eliminar, buscar y listar sus teléfonos
          
+ ![image](https://user-images.githubusercontent.com/52549697/81628678-ed2a4700-93c6-11ea-8dcc-8c22ced15732.png)
+ ![image](https://user-images.githubusercontent.com/52549697/81630568-9d9a4a00-93cb-11ea-9871-fc3c99325a16.png)
+ ![image](https://user-images.githubusercontent.com/52549697/81632188-4ac29180-93cf-11ea-9474-e2ac70b74eb3.png)
+ 
+         Registrar
+
+![image](https://user-images.githubusercontent.com/52549697/81632405-c3295280-93cf-11ea-8d29-8495092f6846.png)
+![image](https://user-images.githubusercontent.com/52549697/81632436-e5bb6b80-93cf-11ea-8f78-178aed43bdba.png)
          
+         Modificar, Eliminar
+![image](https://user-images.githubusercontent.com/52549697/81632829-d2f56680-93d0-11ea-832f-01eb65a77a80.png)
+![image](https://user-images.githubusercontent.com/52549697/81632868-ea345400-93d0-11ea-85a9-77ad18128812.png)
+![image](https://user-images.githubusercontent.com/52549697/81632905-ff10e780-93d0-11ea-9ce7-feabf282968d.png)
          
+         Buscar
+ 
+ ![image](https://user-images.githubusercontent.com/52549697/81633023-4f884500-93d1-11ea-910d-558f44ad82cb.png)
+![image](https://user-images.githubusercontent.com/52549697/81633057-6333ab80-93d1-11ea-89cc-94361342a83f.png)
+
          
          
          Listar los números de teléfono de un usuario usando su número de cédula o correo electrónico
+![image](https://user-images.githubusercontent.com/52549697/81628015-21046d00-93c5-11ea-80aa-92dbc44fca31.png)
+![image](https://user-images.githubusercontent.com/52549697/81628043-36799700-93c5-11ea-9087-378eae01847e.png)
+    
+
          
          
          
          
          Podrá llamar o enviar un correo electrónico desde el sistema usando aplicaciones externas.
+![image](https://user-images.githubusercontent.com/52549697/81633234-e228e400-93d1-11ea-81a8-1b040482a7cf.png)
          
          
+         Filtro
+![image](https://user-images.githubusercontent.com/52549697/81633126-9f670c00-93d1-11ea-8272-426076e57776.png)
+![image](https://user-images.githubusercontent.com/52549697/81633166-b574cc80-93d1-11ea-9ff6-11282a49d8af.png)
          
          
          
     Patrones DAO
-    
+ 
+ ![image](https://user-images.githubusercontent.com/52549697/81633304-0d133800-93d2-11ea-996f-bac32f4f5ff9.png)
+
     
     
     
@@ -67,7 +90,8 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
     
     Se debe generar una página con la experiencia e interfaz de usuario apropiada
     
-    
+ ![image](https://user-images.githubusercontent.com/52549697/81633608-c07c2c80-93d2-11ea-8dc6-9a5655fb1699.png)
+   
     
     
     
