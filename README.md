@@ -14,8 +14,14 @@ los archivos Bean y POJOs, separando la lógica de negocio de la lógica para ac
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC”
 2.	Desarrollar una aplicación con tecnología JEE para gestionar una agenda telefónica en la web.
     Los usuarios pueden registrarse en la aplicación a través de un formulario de creación de cuentas.
-    
-    
+    ![image](https://user-images.githubusercontent.com/52549697/81626532-9a01c580-93c1-11ea-8453-7e32b0bb3687.png)
+![image](https://user-images.githubusercontent.com/52549697/81626712-18f6fe00-93c2-11ea-96c3-4c32983cbc11.png)
+![image](https://user-images.githubusercontent.com/52549697/81626734-2b713780-93c2-11ea-8c8c-97f1c68d91d0.png)
+
+  
+  
+  ![image](https://user-images.githubusercontent.com/52549697/81626886-82770c80-93c2-11ea-837b-44ab190eef77.png)
+
 
     Un usuario puede iniciar sesión usando su correo y contraseña.
     
